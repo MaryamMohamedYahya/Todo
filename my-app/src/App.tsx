@@ -1,18 +1,15 @@
 import React from 'react';
 
-
 import './App.css';
-import InputFeild from './components/InputFeild';
-
-
-
+import Input from './components/Input';
 
 const App: React.FC = () =>{
+  const[todo, setTodo] = useState<string>("");
 
 return  <div className="App">
-  <span className="heading">Let's do</span>
+  <span className="heading">TODO</span>
 
-<InputFeild />
+<Input  todo={todo} setTodo={setTodo} />
 
 </div>
 
