@@ -27,7 +27,7 @@ return  (<div className="App">
   <span className="heading">TODO</span>
 
 <Input  todo={todo} setTodo={setTodo}  handleAdd={handleAdd}/>
- <TodoList />
+ <TodoList todos={todos} setTodos={setTodos} />
 
 
 
