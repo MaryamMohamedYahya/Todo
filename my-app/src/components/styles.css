@@ -56,11 +56,11 @@
     width: 50%;
     border-radius: 5px;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: white;
 }
 .todos_single--text{
-    flex: 1;
+    flex:auto;
     padding: 5px;
     border: none;
     font-size: 20px;
@@ -68,13 +68,14 @@
 }
 
 .todos_single--text:focus{
-    outline:none;
+   
 }
 .icon{
     margin-left:10px;
     font-size:25px;
     cursor:pointer;
 }
+
 @media(max-width: 1200px){
     .todos_single{
         width: 40%;
